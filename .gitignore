@@ -2,4 +2,114 @@ package-lock.json
 node_modules
 .DS_Store
 
-backend
+# Maven target directory (compiled output)
+target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+target/
+
+# VS Code specific
+.vscode/
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+*.class
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific swap files
+*~
+
+# Log files
+logs/
+*.log
+
+# Spring Boot DevTools restart directory
+.spring-boot-devtools/
+
+# Environment and configuration files
+.env
+.env.*
+*.env
+
+# User-specific files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Build output
+build/
+
+# Maven Wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE-specific metadata files
+*.classpath
+*.project
+.settings/
+*.factorypath
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle files (if present)
+.gradle/
+build/
+
+# Generated files
+generated/
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Node.js dependencies (if using React frontend in the same repo)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Frontend build output (if combined with frontend)
+frontend/build/
+frontend/node_modules/
+
+# Coverage reports
+coverage/
+*.lcov
