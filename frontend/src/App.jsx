@@ -1,0 +1,14 @@
+import Website from './components/Website'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+function App() {
+  
+
+  return (
+   <Website />
+  )
+}
+
+export default App
