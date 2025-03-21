@@ -7,8 +7,19 @@
  * 
  */
 
-function Navigation(){
+import React from 'react';
+import Static from './Static';
+import Dynamic from './Dynamic';
+import "../styles/Navigation.css"
 
+function Navigation() {
+    return (
+        <div className='flex-box-column'>
+            <Static />
+            <Dynamic />
+        </div>
+    );
 }
 
-export default Navigation
+export default Navigation;
+
