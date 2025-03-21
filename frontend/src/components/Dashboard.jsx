@@ -7,14 +7,13 @@
  */
 
 import Navigation from './Navigation';
-import  "../styles/Dashboard.css";
-
+import "../styles/Dashboard.css";  // Direct import without using 'style from'
 
 function Dashboard() {
     return (
-        <div className='flex-box-row'>
+        <div className="dashboard-container">
             <Navigation />
-            <div style={{ flex: 1, padding: '20px' }}>
+            <div className="dashboard-content">
                 <h1>Airport Dashboard</h1>
                 <p>Welcome to the main dashboard area!</p>
             </div>
@@ -23,5 +22,6 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
 
 

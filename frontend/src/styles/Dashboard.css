@@ -3,3 +3,24 @@
     flex-direction: row; 
     height: 100vh;       
 }
+
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.dashboard-content {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+}
+
+.navigation {
+    width: 250px; /* Fixed width for the sidebar */
+    height: 100vh; /* Full viewport height */
+    background-color: #343a40; /* Dark background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

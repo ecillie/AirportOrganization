@@ -14,7 +14,7 @@ import "../styles/Navigation.css"
 
 function Navigation() {
     return (
-        <div className='flex-box-column'>
+        <div className='flex-box-column navigation'>
             <Static />
             <Dynamic />
         </div>
